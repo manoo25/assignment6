@@ -1,0 +1,57 @@
+/* sm */
+@media ((min-width: 0px) and (max-width: 639px)) {
+   
+    .parent {
+        height:500vh;
+        grid-template-areas:
+         "div1 div1 div1 div1"
+        "div1 div1 div1 div1"
+        "div2 div2 div2 div2"
+        "div2 div2 div2 div2"
+        "div4 div4 div4 div4"
+        "div4 div4 div4 div4"
+        "div7 div7 div7 div7"
+        "div7 div7 div7 div7"
+         "div9 div9 div9 div9"
+     
+        "div3 div5 div5 div5"
+        "div6 div5 div5 div5"
+        "div8 div5 div5 div5"
+           "div10 div10 div10 div10"
+        ;
+    
+    }
+    .div7{
+   padding-bottom:230px;
+    }
+    .div2 h2{
+margin-top: 25px;
+    }
+
+        
+
+}
+
+
+
+
+
+/* md */
+@media ((min-width: 640px) and (max-width: 768px)) {
+
+}
+
+/* lg */
+@media ((min-width: 769px) and (max-width: 1024px)) {
+ 
+}
+
+/* xl */
+@media ((min-width:1024px) and (max-width: 1280px)) {
+   
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+    
+}
